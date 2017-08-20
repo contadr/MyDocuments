@@ -4,8 +4,8 @@
 화면단의 javascript 코드로 수행
 
 ex)
-'''javascript
-<script language="javascript">
+
+```javascript
     var uAgent = navigator.userAgent.toLowerCase();
     var mobilePhones = new Array(
                     'iphone', 'ipod', 'ipad', 'android',
@@ -15,13 +15,4 @@ ex)
     for (var i = 0; i < mobilePhones.length; i++)
         if (uAgent.indexOf(mobilePhones[i]) != -1)
             document.location = "http://m.example.com";
-</script>
-'''
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
 ```
