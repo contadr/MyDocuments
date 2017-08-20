@@ -5,7 +5,7 @@
 
 ex)
 “`
-<script language='javascript'>
+<script language="javascript">
     var uAgent = navigator.userAgent.toLowerCase();
     var mobilePhones = new Array(
                     'iphone', 'ipod', 'ipad', 'android',
