@@ -4,7 +4,7 @@
 화면단의 javascript 코드로 수행
 
 ex)
-'''
+'''javascript
 <script language="javascript">
     var uAgent = navigator.userAgent.toLowerCase();
     var mobilePhones = new Array(
