@@ -8,5 +8,5 @@ ex)
     var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
     for (var i = 0; i < mobilePhones.length; i++)
         if (uAgent.indexOf(mobilePhones[i]) != -1)
-           document.location = "http://m.example.com";
+            document.location = "http://m.example.com";
 </script>
