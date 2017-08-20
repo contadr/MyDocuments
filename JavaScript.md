@@ -4,7 +4,7 @@
 화면단의 javascript 코드로 수행
 
 ex)
-
+'''
 <script language="javascript">
     var uAgent = navigator.userAgent.toLowerCase();
     var mobilePhones = new Array(
@@ -16,3 +16,4 @@ ex)
         if (uAgent.indexOf(mobilePhones[i]) != -1)
             document.location = "http://m.example.com";
 </script>
+'''
