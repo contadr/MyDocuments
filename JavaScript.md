@@ -17,3 +17,11 @@ ex)
             document.location = "http://m.example.com";
 </script>
 '''
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
